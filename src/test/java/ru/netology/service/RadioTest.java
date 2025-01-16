@@ -70,16 +70,16 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-   // @Test
-   // public void theNumberOfTheCurrentRadioStationHasIncreased_3() {
-   //     Radio rad = new Radio();
-   //     rad.setNumberCurrentRadioStation(8);
-   //     rad.valueRadioStationDown();
+    @Test
+    public void theNumberOfTheCurrentRadioStationHasIncreased_3() {
+        Radio rad = new Radio();
+        rad.setNumberCurrentRadioStation(1);
+        rad.valueRadioStationDown();
 
- //       int expected = 0;
-   //     int actual = rad.getNumberCurrentRadioStation();
-    //    Assertions.assertEquals(expected, actual);
-//}
+        int expected = 0;
+        int actual = rad.getNumberCurrentRadioStation();
+        Assertions.assertEquals(expected, actual);
+    }
 
     @Test
     public void theNumberOfTheCurrentRadioStationHasDecreased_1() {
