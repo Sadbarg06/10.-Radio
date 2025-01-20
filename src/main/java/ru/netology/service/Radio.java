@@ -2,6 +2,11 @@ package ru.netology.service;
 
 public class Radio {
     public int numberCurrentRadioStation;
+    private int maxNumberRadioStation;
+
+    private int minNumberRadioStation = 0;
+
+    private int numberCurrentRadioStation = 3;
 
     private int soundVolumeRadio;
 
